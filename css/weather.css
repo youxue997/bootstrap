@@ -1,0 +1,515 @@
+*{
+	padding: 0px;
+	margin:0px;
+	list-style: none;
+}
+body{
+	overflow-x: hidden;
+}
+.header{
+  width: 100%;
+  background: white;
+  position: relative;
+  z-index: 9;
+  top: 0px;
+  position: fixed;
+}
+
+.header-right .current{
+	display: none;
+}
+.header .header-ul a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+
+
+.footer{
+	width: 100%;
+	height: 473px;
+	background: #f6f6f6;
+	padding-top: 92px;
+}
+.footer .cen{
+	height: 255px;
+	background: transparent;
+	max-width: 920px;
+	min-width: 320px;
+	padding-bottom: 60px;
+}
+.footer .cen ul{
+	width: 33.33%;
+	height: 195px;
+	background: transparent;
+	float: left;
+}
+.footer .cen ul li span{
+	font-size: 24px;
+	color: #a1a1a1;
+}
+.footer .cen ul li a{
+	width: 100%;
+	line-height: 40px;
+	float: left;
+	text-decoration: none;
+	color:#444444;
+}
+.footer p{
+	width: 70%;
+}
+
+
+
+@media (max-width: 598px){ 
+	.footer{
+		height: 582px;
+		padding-top: 0px;
+		padding-top: 40px;
+	}
+	.footer .cen {
+		height: 428px;
+	}
+	.footer .cen ul{
+		width: 100%;
+		float: none;
+		margin-bottom: 15px;
+	}
+	.footer .cen ul li span{
+		font-size: 17px;
+	}
+	.footer .cen .ul1{
+		height: 135px;
+	}
+	.footer .cen .ul2{
+		height: 95px;
+	}
+	.footer .cen .ul3{
+		height: 118px;
+	}
+	.footer .cen ul li a{
+		line-height: 30px;
+		font-size: 13px;
+	}
+	.footer p{
+		width: 100%;
+	}
+}
+
+
+
+
+
+@media (max-width: 960px){
+.nav{
+        width: 100%;
+        background: transparent;
+        padding: 90px 0px;
+}
+.nav1{
+	width: 90%;
+    background:transparent;
+    text-align: center;
+}
+
+.nav2{
+	width: 100%;
+	background:transparent;
+	float: left;
+	margin: 20px 100px 0px 0px;
+	
+}
+.nav .nav2 h2{
+	color: #5197ff;
+	text-align: center;
+}
+.nav .nav2 p{
+	color: #707774;
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: '微软雅黑';
+}
+.nav .nav1 img,.menu .menu1 img,.box .box1 img{
+	margin-top: 50px;
+}
+
+.menu{
+        width: 100%;
+        background: #f9f9f9;
+        padding: 90px 0px;
+}
+.menu1{
+	width: 90%;
+    background: transparent;
+    text-align: center;
+}
+
+.menu2{
+	width: 100%;
+	background: transparent;
+	float: left;
+	margin: 20px 100px 0px 0px;
+}
+
+.menu .menu2 h2{
+	color: #5197ff;
+}
+.menu .menu2 p{
+	color: #707774;
+	width: 100%;
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: '微软雅黑';
+}
+
+
+.box{
+        width: 100%;
+        background: transparent;
+        padding: 90px 0px;
+}
+.box1{
+	width: 90%;
+    background: transparent;
+    text-align: center;
+}
+
+.box2{
+	width: 100%;
+	background: transparent;
+	float: left;
+	margin: 20px 100px 0px 0px;
+}
+
+.box .box2 h2{
+	color: #5197ff;
+}
+.box .box2 p{
+	color: #707774;
+	margin-top: 40px;
+	font-size: 18px;
+	font-family: '微软雅黑';
+}
+}
+
+
+
+
+
+@media(min-width: 959px){
+.nav{
+        width: 100%;
+        background: transparent;
+        padding: 90px 0px;
+}
+.nav1{
+	width: 960px;
+    background: transparent;
+}
+
+.nav2{
+	width: 480px;
+	background: transparent;
+	float: left;
+	margin: 20px 100px 0px 0px;
+}
+
+.nav .nav2 h2{
+	color: #5197ff;
+}
+.nav .nav2 p{
+	color: #707774;
+	margin-top: 40px;
+	line-height: 28px;
+	font-size: 18px;
+	font-family: '微软雅黑';
+}
+
+
+.menu{
+        width: 100%;
+        background: #f9f9f9;
+        padding: 90px 0px;
+}
+.menu1{
+	width: 960px;
+    background: transparent;
+}
+
+.menu2{
+	width: 480px;
+	background: transparent;
+	float: right;
+	margin: 20px 100px 0px 0px;
+}
+
+.menu .menu2 h2{
+	color: #5197ff;
+}
+.menu .menu2 p{
+	color: #707774;
+	margin-top: 40px;
+	line-height: 28px;
+	font-size: 18px;
+	font-family: '微软雅黑';
+}
+
+
+.box{
+        width: 100%;
+        background: transparent;
+        padding: 90px 0px;
+}
+.box1{
+	width: 960px;
+    background: transparent;
+}
+
+.box2{
+	width: 480px;
+	background: transparent;
+	float: left;
+	margin: 20px 100px 0px 0px;
+}
+
+.box .box2 h2{
+	color: #5197ff;
+}
+.box .box2 p{
+	color: #707774;
+	margin-top: 40px;
+	line-height: 28px;
+	font-size: 18px;
+	font-family: '微软雅黑';
+}
+}
+@media (max-width: 767px){ 
+	.header{
+		height: 56px;
+		width: 100%;
+		background: #2b3643;
+		position: fixed;
+	}
+	.header-center{
+	height: 56px;
+	width: 100%;
+	background: transparent;
+}
+	.header-left{
+		background: url(../images/logo1.png) 100%;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		line-height: 56px;
+		width: 83px;
+		float: right;
+	}
+	.header-right{
+		float: left;
+		width: 48px;
+		height: 48px;
+		background: green;
+		cursor: pointer;
+		margin-top: 5px;
+	}
+	.header-right .bord{
+		margin-top: 14px;
+		margin-left: 12px;
+	}
+	.header-right p{
+        width: 24px;
+        height: 4px;
+        background: white;
+        border-radius: 25px;
+        left: 10px;
+        margin: 0px 0px 4px;
+	}
+	.header-ul{
+		display: none;
+		width: 240px;
+		height: 100%;
+		background: rgba(43,54,67,0.9);
+		margin-top: 13px;
+		margin-left: -15px;
+		position: fixed;
+	}
+	.header-ul .ul1{
+		padding-top: 27px;
+	}
+	.header-ul .title,.header .title1{
+		line-height: 48px;
+		width: 100%;
+	}
+	.header-ul .title:hover{
+		background:#3bf1f5;
+	}
+	.header .title1:hover{
+		background:#3bf1f5;
+	}
+	.header-ul .title a,.header .title1 a{
+		color: white;
+		font-size: 14px;
+		margin-left: 30px;
+	}
+	.current ol{
+	display: none;
+    }
+    .current ol li{
+	margin-left: 10px;
+    }
+    .header .header-ul .title1 span{
+    	color: white;
+    	font-size: 24px;
+    	float: right;
+    }
+    .header .header-ul .title1 span:hover{
+    	transform: rotate(180deg);
+    }
+    .banner{
+	width: 100%;
+    height: 100%;
+    position: relative;
+    padding-bottom: 57.5%; 
+}
+    .banner img{
+    width: 120%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 56px;
+    /*height: 752px;*/
+}
+	
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) { 
+	.header{
+		width: 100%;
+		height: 166px;
+		background: white;
+	}
+	.header-left{
+		margin: auto;
+		background-image: url(../images/LOGO.png);
+		background-repeat:  no-repeat;
+		line-height: 61px;
+		width: 164px;
+		margin-top: 17px;
+	}
+	.header-right .header-ul{
+		margin-left: 25%;
+	}
+	/*.carousel-control{
+		top: 88px;
+		bottom: 20px;
+	}*/
+	.header-right .title,.header-right .title1{
+	float: left;
+	margin-left: 40px;
+    line-height: 78px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+	.header-right .current{
+		font-size: 14px;
+		line-height: 38px;
+		width: 188px;
+		height: 342px;
+		background: white;
+		margin-left: -80px;
+		/*display: none;*/
+		position: absolute;
+	}
+	.header-center{
+		height: 78px;
+		background: transparent;
+	}
+	.header .header-ul .title1 span{
+	   display: none;
+	}
+	.banner{
+	width: 100%;
+    height: 100%;
+    position: relative;
+    padding-bottom: 65.5%; 
+}
+	.banner img{
+    width: 120%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 166px;
+    /*height: 752px;*/
+}
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 992px) { 
+	.header{
+		width: 100%;
+		height: 88px;
+		background: white;
+	}
+	.header-right .header-ul{
+		float: right;
+		margin-bottom: 0px;
+	}
+	.header-right .header-ul ol li{
+		margin-left: 10px;
+	}
+	.header-right .header-ul ol li:hover{
+		color: red;
+	}
+	.header-right .title,.header-right .title1{
+	float: left;
+	margin-left: 40px;
+    line-height: 78px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+    .header-left{
+    	float: left;
+    	background-image: url(../images/LOGO.png);
+		background-repeat:  no-repeat;
+		line-height: 61px;
+		width: 164px;
+		margin-top: 17px;
+    }
+    .header-right .current{
+	font-size: 14px;
+	line-height: 32px;
+	width: 188px;
+	height: 304px;
+	background: white;
+	margin-left: -80px;
+	/*display: none;*/
+	position: absolute;
+}
+    .header-center{
+    	height: 78px;
+    	background: transparent;
+    }
+    .header .header-ul .title1 span{
+       	display: none;
+    }
+    .banner{
+	width: 100%;
+    height: 100%;
+    position: relative;
+    padding-bottom: 49.5%; 
+}
+    .banner img{
+    width: 120%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    /*height: 752px;*/
+}
+
+}

@@ -1,0 +1,368 @@
+*{
+	padding: 0px;
+	margin:0px;
+	list-style: none;
+}
+.header{
+  width: 100%;
+  background: white;
+  position: relative;
+  z-index: 9;
+  top: 0px;
+  position: fixed;
+}
+
+.header-right .current{
+	display: none;
+}
+
+.header .header-ul a{
+	text-decoration: none;
+	color: black;
+}
+.banner,.content{
+	width: 100%;
+	height: 420px;
+	background: white;
+    padding-top: 110px;
+}
+.con{
+	width: 100%;
+	height: 420px;
+	background: #f3f3f3;
+    padding-top: 110px;
+}
+.nav,.menu,.minimenu{
+	width: 70%;
+	height: 248px;
+	background: transparent;
+
+}
+.nav1,.menu1{
+	width: 33.33%;
+	height: 248px;
+	float: left;
+	text-align: center;
+}
+.minimenu1{
+	width: 50%;
+	float: left;
+	height: 248px;
+	text-align: center;
+}
+.minimenu2{
+	float: right;
+}
+.banner .nav p,.con .menu p,.content .minimenu p{
+	margin-top: 30px;
+}
+.banner .nav a,.con .menu a,.content .minimenu a{
+	text-decoration: none;
+	font-size: 20px;
+	color: #333333;
+}
+
+.footer{
+	width: 100%;
+	height: 473px;
+	background: #f3f3f3;
+	padding-top: 92px;
+}
+.footer .cen{
+	height: 255px;
+	background: transparent;
+	max-width: 920px;
+	min-width: 320px;
+	padding-bottom: 60px;
+}
+.footer .cen ul{
+	width: 33.33%;
+	height: 195px;
+	background: transparent;
+	float: left;
+}
+.footer .cen ul li span{
+	font-size: 24px;
+	color: #a1a1a1;
+}
+.footer .cen ul li a{
+	width: 100%;
+	line-height: 40px;
+	float: left;
+	text-decoration: none;
+	color: #444444;
+}
+.footer p{
+	width: 70%;
+}
+
+
+
+/* 超小屏幕（手机，小于 768px） */
+/* 没有任何媒体查询相关的代码，因为这在 Bootstrap 中是默认的（还记得 Bootstrap 是移动设备优先的吗？） */
+
+/* 小屏幕（平板，大于等于 768px） */
+@media (max-width: 598px){ 
+	.footer{
+		height: 582px;
+		padding-top: 0px;
+		padding-top: 40px;
+	}
+	.footer .cen {
+		height: 428px;
+	}
+	.footer .cen ul{
+		width: 100%;
+		float: none;
+		margin-bottom: 15px;
+	}
+	.footer .cen ul li span{
+		font-size: 17px;
+	}
+	.footer .cen .ul1{
+		height: 135px;
+	}
+	.footer .cen .ul2{
+		height: 95px;
+	}
+	.footer .cen .ul3{
+		height: 118px;
+	}
+	.footer .cen ul li a{
+		line-height: 30px;
+		font-size: 13px;
+	}
+	.footer p{
+		width: 100%;
+	}
+
+
+	
+
+
+
+
+}
+@media (max-width: 767px){ 
+	.banner,.con{
+		height: 986px;
+	}
+	.content{
+		height: 738px;
+	}
+	.nav1{
+		width: 100%;
+		float: none;
+		margin-bottom: 58px;
+	}
+	.menu1{
+		width: 100%;
+		float: none;
+		margin-bottom: 58px;
+	}
+	.minimenu1,.minimenu2{
+		width: 100%;
+		float: none;
+		text-align: center;
+		margin-bottom: 58px;
+	}
+	.footer p{
+		width: 100%;
+	}
+	.header{
+		height: 56px;
+		width: 100%;
+		background: #2b3643;
+		position: fixed;
+	}
+	.header-center{
+	height: 56px;
+	width: 100%;
+	background: transparent;
+}
+	.header-left{
+		background: url(../images/logo1.png) 100%;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		line-height: 56px;
+		width: 83px;
+		float: right;
+	}
+	.header-right{
+		float: left;
+		width: 48px;
+		height: 48px;
+		background: green;
+		cursor: pointer;
+		margin-top: 5px;
+	}
+	.header-right .bord{
+		margin-top: 14px;
+		margin-left: 12px;
+	}
+	.header-right p{
+        width: 24px;
+        height: 4px;
+        background: white;
+        border-radius: 25px;
+        left: 10px;
+        margin: 0px 0px 4px;
+	}
+	.header-ul{
+		display: none;
+		width: 240px;
+		height: 100%;
+		background: rgba(43,54,67,0.9);
+		margin-top: 13px;
+		margin-left: -15px;
+		position: fixed;
+	}
+	.header-ul .ul1{
+		padding-top: 27px;
+	}
+	.header-ul .title,.header .title1{
+		line-height: 48px;
+		width: 100%;
+	}
+	.header-ul .title:hover{
+		background:#3bf1f5;
+	}
+	.header .title1:hover{
+		background:#3bf1f5;
+	}
+	.header-ul .title a,.header .title1 a{
+		color: white;
+		font-size: 14px;
+		margin-left: 30px;
+	}
+	.current ol{
+	display: none;
+    }
+    .current ol li{
+	margin-left: 10px;
+    }
+    .header .header-ul .title1 span{
+    	color: white;
+    	font-size: 24px;
+    	float: right;
+    }
+    .header .header-ul .title1 span:hover{
+    	transform: rotate(180deg);
+    }
+
+}
+
+
+/* 中等屏幕（桌面显示器，大于等于 992px） */
+@media (min-width: 768px) and (max-width: 991px) { 
+	.header{
+		width: 100%;
+		height: 166px;
+		background: white;
+	}
+	.header-left{
+		margin: auto;
+		background-image: url(../images/LOGO.png);
+		background-repeat:  no-repeat;
+		line-height: 61px;
+		width: 164px;
+		margin-top: 17px;
+	}
+	.header-right .header-ul{
+		margin-left: 25%;
+	}
+	/*.carousel-control{
+		top: 88px;
+		bottom: 20px;
+	}*/
+	.header-right .title,.header-right .title1{
+	float: left;
+	margin-left: 40px;
+    line-height: 78px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.header-right .current{
+	font-size: 14px;
+	line-height: 38px;
+	width: 188px;
+	height: 342px;
+	background: white;
+	margin-left: -80px;
+	position: absolute;
+	padding-left: 10px;
+}
+.header-center{
+	height: 78px;
+	background: transparent;
+}
+   .header .header-ul .title1 span{
+   	display: none;
+}
+.header-right .current li:hover{
+	color: red;
+}
+
+}
+
+/* 大屏幕（大桌面显示器，大于等于 1200px） */
+@media (min-width: 992px) { 
+	.header{
+		width: 100%;
+		height: 88px;
+		background: white;
+	}
+	.header-right .header-ul{
+		float: right;
+		margin-bottom: 0px;
+	}
+	
+	/*.carousel{
+		margin-top: 10px;
+	}
+	.carousel-control{
+		bottom: 20px;
+	}*/
+	/*.header{
+		position: fixed;
+	}*/
+	
+	.header-right .title,.header-right .title1{
+	float: left;
+	margin-left: 40px;
+    line-height: 78px;
+    font-size: 20px;
+    position: relative;
+    cursor: pointer;
+}
+    .header-left{
+    	float: left;
+    	background-image: url(../images/LOGO.png);
+		background-repeat:  no-repeat;
+		line-height: 61px;
+		width: 164px;
+		margin-top: 17px;
+    }
+    .header-right .current{
+	font-size: 14px;
+	line-height: 38px;
+	width: 188px;
+	height: 342px;
+	background: white;
+	margin-left: -80px;
+	position: absolute;
+	padding-left: 10px;
+}
+.header-right .current li:hover{
+	color: red;
+}
+    .header-center{
+    	height: 78px;
+    	background: transparent;
+    }
+    .header .header-ul .title1 span{
+       	display: none;
+    }
+
+}
